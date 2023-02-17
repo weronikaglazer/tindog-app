@@ -1,0 +1,87 @@
+body {
+    background-color: whitesmoke;
+    width: 550px;
+    height: 860px;
+    margin: 0 auto;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+/* header styling */
+
+header {
+    display: flex;
+    height: 5%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+header img {
+    width: 34px;
+    height: 34px;
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+/* dog profile styling */
+
+.profile { height: 75%}
+
+.dog-card {
+    display: flex;
+    width: 99%;
+    height: 100%;
+    background-size: cover;
+    margin: 1px;
+    border-radius: 10px;
+}
+
+.badge {
+    height: 115px;
+    width: 230px;
+    transform: rotate(-30deg);
+    position:absolute;
+    margin: 4em 0 0 1em;
+}
+
+.hidden {  display: none }
+
+.text {
+    font-size: 1.6rem;
+    height: 15%;
+    color: white;
+    align-self: flex-end;
+    margin: 0 0 0 0.5em;
+}
+
+.text h2 { margin: 0 }
+.text p {
+    color: #B7B7B7;
+    margin-top: 0.2em;
+}
+
+/* buttons styling */
+
+.buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+}
+
+button {
+    border: none;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 1.5em 1em 0 1em;
+    box-shadow: 1px 1px 1px 1px 1px #B7B7B7;
+    width: 85px;
+    height: 85px;
+}
+
+.cross-btn:hover { background-color: #FFE7EF }
+.heart-btn:hover { background-color: #DBFFF4 }
