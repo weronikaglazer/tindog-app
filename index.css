@@ -6,6 +6,8 @@ body {
     font-family: 'Poppins', 'sans-serif';
 }
 
+.hidden {  display: none }
+
 /* header styling */
 
 header {
@@ -47,18 +49,17 @@ header img {
     margin: 4em 0 0 1em;
 }
 
-.hidden {  display: none }
-
 .text {
     font-size: 1.6rem;
     height: 15%;
     color: white;
     align-self: flex-end;
-    margin: 0 0 0 0.5em;
+    margin: 0 0 0.4em 0.7em;
 }
 
 .text h2 { margin: 0 }
 .text p {
+    font-size: 1.4rem;
     color: #B7B7B7;
     margin-top: 0.2em;
 }
@@ -76,7 +77,6 @@ button {
     border: none;
     background-color: white;
     border-radius: 50%;
-    cursor: pointer;
     margin: 1.5em 1em 0 1em;
     box-shadow: 1px 1px 1px 1px 1px #B7B7B7;
     width: 85px;
